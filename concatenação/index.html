@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='UTF-8'>
+        <title>JavaScript</title>
+        <script>
+            var nome = prompt ('digite o seu nome:')
+            var idade = prompt ('digite a sua idade:')
+            var mensagem = 'Recarregue a página e digite sua idade em números'
+            if (isNaN(idade)) {
+               alert (mensagem)
+               document.write (mensagem)
+            } else {
+               document.write ('<h1> Olá ' + nome + ', tudo bem? Estou vendo aqui que você possui' + idade + 'anos.</h1>')
+            }
+        </script>
+    </head>
+    <body>
+    </body>
+</html>
