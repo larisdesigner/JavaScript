@@ -9,12 +9,14 @@
             var media = 7
             var faltas = prompt ('Escreva o número de faltas do aluno')
             var numaulas = 20
-
+            /*
             if (nota>=media && faltas<=(numaulas*0.25)) {
                 document.write ('o aluno '+ nomealuno + ' está aprovado!')
             } else {
                 document.write ('o aluno '+ nomealuno + ' está reprovado :(')
             }
+            */
+            document.write ((nota>=media && faltas<=(numaulas*0.25)) ? 'o aluno '+ nomealuno + ' está aprovado!' : 'o aluno '+ nomealuno + ' está reprovado :(')
         </script>
     </head>
     <body>
