@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='UTF-8'>
+        <title>JavaScript</title>
+        <script>
+            var variavel1 = prompt('digite um número')
+            var variavel2 = prompt('digite um número')
+
+            variavel1 = parseInt(variavel1) /* o parseInt transforma a minha string em um número inteiro para na concatenação somar os números e não escrever eles lado a lado */
+            variavel2 = parseFloat(variavel2) /* o parseFloat transforma a minha string em um número com a preservação da fração (num com virgula) para na concatenação somar os números e não escrever eles lado a lado */
+
+            var variavel3 = 10
+            var variavel4 = 20
+
+            document.write(variavel1 + variavel2 + variavel3.toString() + variavel4.toString()) /* Esse .toString transforma o número em uma variável String fazendo a escrita lado a lado das mesmas */
+        </script>
+    </head>
+    <body>
+    </body>
+</html>
